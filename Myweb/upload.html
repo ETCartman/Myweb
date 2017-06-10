@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>UPLOAD FILES!</title>
+</head>
+<body>
+<h1>Welcome SVIP!</h1>
+<form action = "upload.php" method = "POST" enctype="multipart/form-data">
+<select name = "type">
+<option value = "music">Music</option>
+<option value = "background">Background</option>>
+<input type = "hidden" name = "MAX_FILE_SIZE" value = "15000000">
+<input type = "file" name = "userfile" id = "userfile">
+<br /><br />
+<input type = "submit" value = "UPLOAD">
+</select>
+</form>
+</body>
+</html>
